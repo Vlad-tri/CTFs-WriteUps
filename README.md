@@ -1,4 +1,4 @@
 # CTFs-WriteUps
 
-# Participated Events
+Participated Events
 
