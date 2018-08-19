@@ -7,7 +7,7 @@ year = 0xe2
 
 
 '''
-#Encryption Algorithm
+#Key Verifier
 
 first_xor = []
 for v,k in zip(val,key):
