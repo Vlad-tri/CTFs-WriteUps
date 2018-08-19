@@ -4,11 +4,11 @@ This challenge first connects to the server at port:8888 and then send various c
 
 When we open the binary in IDA we found that at sub_4014A0 it connects to server having ip : 66.42.55.226 and sub_401090 it sends the test command in this format : "id|command|companyname|other"
 
-Initial Idea:\n
-At 1 it sends the command to the server
-At 2 it generates the license using some algorithm
-At 3 prints "id/command help have been sended to you email"
-At 4 Exits
+Initial Idea:
+* At 1 it sends the command to the server
+* At 2 it generates the license using some algorithm
+* At 3 prints "id/command help have been sended to you email"
+* At 4 Exits
 
 When we enter some random id other than 111 we get an error msg : "wrong id\n id looklike 000-999"
 
